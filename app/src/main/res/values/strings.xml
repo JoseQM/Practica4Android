@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">Practica4</string>
+    <string name="activityPrimos">Número Primo</string>
+    <string name="activityAcierto">Juego de Acierto</string>
+
+
+    <string name="btn1">Nº Primo</string>
+    <string name="btn2">Juego de Aciertos</string>
+    <string name="btn3">Desplazando Imágenes</string>
+    <string name="btn4">Selecciona Imágenes</string>
+
+    <string name="numeroPrimo">Introduzca un número</string>
+    <string name="btnPrimo">Calcular</string>
+
+    <string name="btnCheck">Comprobar</string>
+
+
+    <string-array name="paises">
+        <item>España</item>
+        <item>Portugal</item>
+        <item>Francia</item>
+        <item>Italia</item>
+        <item>Holanda</item>
+        <item>Alemania</item>
+        <item>Noruega</item>
+        <item>Colombia</item>
+        <item>Perú</item>
+    </string-array>
+
+    <string-array name="capitales">
+        <item>Madrid</item>
+        <item>Lisboa</item>
+        <item>París</item>
+        <item>Roma</item>
+        <item>Amsterdam</item>
+        <item>Berlín</item>
+        <item>Oslo</item>
+        <item>Bogotá</item>
+        <item>Lima</item>
+    </string-array>
+
+
+    <string name="paises">Paises</string>
+    <string name="capitales">Capitales</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
