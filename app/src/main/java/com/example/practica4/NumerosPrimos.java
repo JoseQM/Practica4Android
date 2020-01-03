@@ -37,7 +37,6 @@ public class NumerosPrimos extends AppCompatActivity
                 primo = Integer.parseInt(txtNumero.getText().toString());
                 contador = 0;
 
-
                 for (int i = 1; i <= primo; i++)
                     if ((primo % i) == 0)
                     {
@@ -46,11 +45,11 @@ public class NumerosPrimos extends AppCompatActivity
 
                 if (contador <= 2)
                 {
-                    txtResultado.setText("El número es primo");
+                    txtResultado.setText(getString(R.string.esPrimo));
                 }
                 else
                     {
-                        txtResultado.setText("El número no es primo");
+                        txtResultado.setText(getString(R.string.noEsPrimo));
                     }
             }
         });

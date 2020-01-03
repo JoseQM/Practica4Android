@@ -13,19 +13,18 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentoPlanta2 extends Fragment {
+public class FragmentoPlanta2 extends Fragment
+{
 
+    public FragmentoPlanta2()
+    {
 
-    public FragmentoPlanta2() {
-        // Required empty public constructor
     }
 
-
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+    {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_fragmento_planta2, container, false);
     }
-
 }

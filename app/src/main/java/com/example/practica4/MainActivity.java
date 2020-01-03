@@ -27,6 +27,28 @@ public class MainActivity extends AppCompatActivity
         btnSelecciona = findViewById(R.id.btnSelecciona);
 
 
+        btnPrimo.setOnClickListener(new Button.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent1 = new Intent (v.getContext(), NumerosPrimos.class);
+                startActivity(intent1);
+            }
+        });
+
+
+        btnAcierto.setOnClickListener(new Button.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent2 = new Intent (v.getContext(), JuegoDeAciertos.class);
+                startActivity(intent2);
+            }
+        });
+
+
         btnDesplazando.setOnClickListener(new Button.OnClickListener()
         {
             @Override
@@ -47,17 +69,4 @@ public class MainActivity extends AppCompatActivity
             }
         });
     }
-
-    public void abrirPrimos(View view)
-    {
-        Intent intent = new Intent (this, NumerosPrimos.class);
-        startActivity(intent);
-    }
-
-    public void abrirAcierto(View view)
-    {
-        Intent intent2 = new Intent (this, JuegoDeAciertos.class);
-        startActivity(intent2);
-    }
-
 }

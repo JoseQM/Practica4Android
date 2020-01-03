@@ -44,7 +44,12 @@
     <string name="paises">Paises</string>
     <string name="capitales">Capitales</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="planta1">Planta 1</string>
+    <string name="planta2">Planta 2</string>
+    <string name="planta3">Planta 3</string>
+    <string name="planta4">Planta 4</string>
+
+    <string name="esPrimo">"El número es primo"</string>
+    <string name="noEsPrimo">"El número no es primo"</string>
 
 </resources>

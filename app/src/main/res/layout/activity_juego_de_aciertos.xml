@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="com.example.practica4.paisesFragment"
+        android:name="com.example.practica4.PaisesFrag"
         android:layout_width="163dp"
         android:layout_height="166dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/fragment2"
-        android:name="com.example.practica4.capitalesFragment"
+        android:name="com.example.practica4.CapitalesFrag"
         android:layout_width="163dp"
         android:layout_height="169dp"
         android:layout_marginStart="124dp"
@@ -54,6 +54,7 @@
         android:id="@+id/btnCheck"
         android:layout_width="137dp"
         android:layout_height="54dp"
+        style="@style/btnStyles"
         android:text="@string/btnCheck"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
