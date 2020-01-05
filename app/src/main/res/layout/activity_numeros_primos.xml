@@ -14,38 +14,40 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
+        app:layout_constraintVertical_bias="0.303" />
 
     <Button
         android:id="@+id/btnCalcular"
         android:layout_width="149dp"
         android:layout_height="46dp"
-        android:text="@string/btnPrimo"
         android:drawableEnd="@drawable/icononprimo"
         android:fontFamily="monospace"
+        android:text="@string/btnPrimo"
+        style="@style/btnStyles"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
 
     <TextView
         android:id="@+id/txtLblPrimo"
         android:layout_width="198dp"
         android:layout_height="40dp"
-        android:text="@string/numeroPrimo"
         android:fontFamily="monospace"
+        android:text="@string/numeroPrimo"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintVertical_bias="0.088" />
 
     <TextView
         android:id="@+id/txtResultadoPrimo"
@@ -58,5 +60,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745" />
+        app:layout_constraintVertical_bias="0.826" />
 </androidx.constraintlayout.widget.ConstraintLayout>
