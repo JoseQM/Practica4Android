@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Pratiquer 4</string>
+    <string name="activityPrimos">Nombre premier</string>
+    <string name="activityAcierto">Jeu de réussite</string>
+
+    <string name="btn1">Nombre premier</string>
+    <string name="btn2">Jeu de réussite</string>
+    <string name="btn3">Décalage d images</string>
+    <string name="btn4">Sélectionner des images</string>
+
+    <string name="numeroPrimo">Entrez un nombre</string>
+    <string name="btnPrimo">Calculer</string>
+
+    <string name="btnCheck">Vérifier</string>
+
+
+
+    <string name="españa">Espagne</string>
+    <string name="portugal">Portugal</string>
+    <string name="francia">France</string>
+    <string name="italia">Italie</string>
+    <string name="holanda">Hollande</string>
+    <string name="alemania">Allemagne</string>
+    <string name="noruega">La Norvège</string>
+    <string name="colombia">La Colombie</string>
+    <string name="peru">Pérou</string>
+
+
+    <string name="madrid">Madrid</string>
+    <string name="lisboa">Lisbonne</string>
+    <string name="paris">París</string>
+    <string name="roma">Roma</string>
+    <string name="amsterdam">Amsterdam</string>
+    <string name="berlin">Berlín</string>
+    <string name="oslo">Oslo</string>
+    <string name="bogota">Bogotá</string>
+    <string name="lima">Lima</string>
+
+    <string-array name="paises">
+        <item>@string/españa</item>
+        <item>@string/portugal</item>
+        <item>@string/francia</item>
+        <item>@string/italia</item>
+        <item>@string/holanda</item>
+        <item>@string/alemania</item>
+        <item>@string/noruega</item>
+        <item>@string/colombia</item>
+        <item>@string/peru</item>
+    </string-array>
+
+    <string-array name="capitales">
+        <item>@string/madrid</item>
+        <item>@string/lisboa</item>
+        <item>@string/paris</item>
+        <item>@string/roma</item>
+        <item>@string/amsterdam</item>
+        <item>@string/berlin</item>
+        <item>@string/oslo</item>
+        <item>@string/bogota</item>
+        <item>@string/lima</item>
+    </string-array>
+
+    <string name="paises">Les pays</string>
+    <string name="capitales">Capitaux</string>
+
+    <string name="planta1">Plante 1</string>
+    <string name="planta2">Plante 2</string>
+    <string name="planta3">Plante 3</string>
+    <string name="planta4">Plante 4</string>
+
+    <string name="esPrimo">Le nombre est premier</string>
+    <string name="noEsPrimo">Le nombre n est pas un premier</string>
+
+</resources>

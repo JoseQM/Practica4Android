@@ -4,7 +4,6 @@
     <string name="activityPrimos">Número Primo</string>
     <string name="activityAcierto">Juego de Acierto</string>
 
-
     <string name="btn1">Nº Primo</string>
     <string name="btn2">Juego de Aciertos</string>
     <string name="btn3">Desplazando Imágenes</string>
@@ -15,29 +14,50 @@
 
     <string name="btnCheck">Comprobar</string>
 
+    <string name="españa">España</string>
+    <string name="portugal">Portugal</string>
+    <string name="francia">Francia</string>
+    <string name="italia">Italia</string>
+    <string name="holanda">Holanda</string>
+    <string name="alemania">Alemania</string>
+    <string name="noruega">Noruega</string>
+    <string name="colombia">Colombia</string>
+    <string name="peru">Perú</string>
+
+
+    <string name="madrid">Madrid</string>
+    <string name="lisboa">Lisboa</string>
+    <string name="paris">París</string>
+    <string name="roma">Roma</string>
+    <string name="amsterdam">Amsterdam</string>
+    <string name="berlin">Berlín</string>
+    <string name="oslo">Oslo</string>
+    <string name="bogota">Bogotá</string>
+    <string name="lima">Lima</string>
+
 
     <string-array name="paises">
-        <item>España</item>
-        <item>Portugal</item>
-        <item>Francia</item>
-        <item>Italia</item>
-        <item>Holanda</item>
-        <item>Alemania</item>
-        <item>Noruega</item>
-        <item>Colombia</item>
-        <item>Perú</item>
+        <item>@string/españa</item>
+        <item>@string/portugal</item>
+        <item>@string/francia</item>
+        <item>@string/italia</item>
+        <item>@string/holanda</item>
+        <item>@string/alemania</item>
+        <item>@string/noruega</item>
+        <item>@string/colombia</item>
+        <item>@string/peru</item>
     </string-array>
 
     <string-array name="capitales">
-        <item>Madrid</item>
-        <item>Lisboa</item>
-        <item>París</item>
-        <item>Roma</item>
-        <item>Amsterdam</item>
-        <item>Berlín</item>
-        <item>Oslo</item>
-        <item>Bogotá</item>
-        <item>Lima</item>
+        <item>@string/madrid</item>
+        <item>@string/lisboa</item>
+        <item>@string/paris</item>
+        <item>@string/roma</item>
+        <item>@string/amsterdam</item>
+        <item>@string/berlin</item>
+        <item>@string/oslo</item>
+        <item>@string/bogota</item>
+        <item>@string/lima</item>
     </string-array>
 
 
@@ -51,5 +71,6 @@
 
     <string name="esPrimo">"El número es primo"</string>
     <string name="noEsPrimo">"El número no es primo"</string>
+
 
 </resources>
