@@ -31,17 +31,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.26" />
 
-    <TextView
-        android:id="@+id/txtResultadoAcierto"
-        android:layout_width="357dp"
-        android:layout_height="47dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837" />
-
     <Button
         android:id="@+id/btnCheck"
         style="@style/btnStyles"
@@ -104,5 +93,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.337" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="345dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891">
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
